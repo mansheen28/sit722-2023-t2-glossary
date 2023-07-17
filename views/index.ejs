@@ -2,25 +2,25 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= subheading %></p>
-    <table>
+    <h1><%= title %></h1> <br>
+    <h2>Welcome to <%= subheading %></h2>
+    <table style="width: 100%"> <br><br>
+      <tr>
+        <th>SERIAL NO.</th>
+        <th>TERM</th>
+        <th>DESCRIPTION</th>
+        <th>REFRENCES</th>
+      </tr><br>
       <% items.forEach((item) => { %>
-        <tr>
-          <td>
-            <%= item.id %>
-          </td>
-          <td>
-            <%= item.title %>
-          </td>
-          <td>
-            <%= item.description %>
-          </td>
-        </tr>
-
+      <tr>
+        <td><%= item.id %></td>
+        <td><%= item.term %></td>
+        <td><%= item.description %></td>
+        <td><%= item.references %></td>
+      </tr>
       <% }); %>
     </table>
   </body>
