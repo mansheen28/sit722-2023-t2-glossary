@@ -62,6 +62,66 @@ const itemList = [
     description: "Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is has no bugs.",
     references: "Hamilton, T. (2019). What is Software Testing? Introduction, Definition, Basics & Types. [online] Guru99.com. Available at: https://www.guru99.com/software-testing-introduction-importance.html",
   },
+  {
+    id: 11,
+    term: "Command Line Interface",
+    description: "CLI are popularly known as console user interface. It interacts with the computer apllications, run programs and manage computer files.",
+    references: "What is a command-line interface (CLI)?,” SearchWindowsServer. https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI#:~:text=A%20command%2Dline%20interface%20(CLI)%20is%20a%20text%2D"
+  },
+  {
+    id: 12,
+    term: "Google Cloud",
+    description: "Google cloud is the cloud computing services that is exactly same as google services like Youtube, Gmail, Google Search. Instead of having own servers physically, we can use and pay depending on the need.",
+    references: "[1]“What is Cloud Computing?,” Google Cloud. https://cloud.google.com/learn/what-is-cloud-computing#:~:text=Google%20Cloud%20is%20a%20suite",
+  },
+  {
+    id: 13,
+    term: "DASA DevOps",
+    description: "DASA stands for DevOps Agile Skills Association. The six core DASA DevOps principles are Customer-centric action, Create with the end in mind, End-to-end responsibility, Cross-functional autonomous teams, Continuous improvement, Automate everything you can.",
+    references: "DASA DevOps,” APMG International. https://apmg-international.com/product/dasa-devops#:~:text=The%20six%20core%20DASA%20DevOps (accessed Aug. 01, 2023).",
+  },
+  {
+    id: 14,
+    term: "Continuous Deployment",
+    description: "It is a simple and a quick process of deploying the code, test it and does not breaks the application. Gets feedback after deploying.",
+    references: "Continuous deployment - definition & overview,” Sumo Logic. https://www.sumologic.com/glossary/continuous-deployment/#:~:text=The%20goal%20of%20a%20continuous%20deployment%20process%20is%20to%20minimize (accessed Aug. 01, 2023).",
+  },
+  {
+    id: 15,
+    term: "Continuous Monitoring",
+    description: "It is an approach where constant monitoring is seen to detect security threats, performance issues & problems in an automated manner.",
+    references: "What Is Continuous Monitoring? - CrowdStrike,” crowdstrike.com. https://www.crowdstrike.com/cybersecurity-101/observability/continuous-monitoring/#:~:text=Continuous%20monitoring%20is%20an%20approach",
+  },
+  {
+    id: 16,
+    term: "Continous Integration",
+    description: "It is a practice of integrating the code from multiple contributors into a single software project.",
+    references: "Atlassian, “What is Continuous Integration,” Atlassian. https://www.atlassian.com/continuous-delivery/continuous-integration#:~:text=Continuous%20integration%20(CI)%20is%20the",
+  },
+  {
+    id: 17,
+    term: "Continuous Dilivery",
+    description: "This helps in building, testing and releasing softwares faster and more frequently.",
+    references: "What Is Continuous Delivery and How Does It Work? | Synopsys,” www.synopsys.com. https://www.synopsys.com/glossary/what-is-continuous-delivery.html#:~:text=Definition (accessed Aug. 01, 2023).",
+  },
+  {
+    id: 18,
+    term: "DevOps Cycle",
+    description: "It is a series of automated development processes within an iterative development lifecycle. It includes steps: plan, code and build, test, release, deploy, operate and monitor.",
+    references: "DevOps Lifecycle: 7 Phases Explained in Detail with Examples,” Insights on Latest Technologies - Simform Blog, Jan. 13, 2022. https://www.simform.com/blog/devops-lifecycle/",
+  },
+  {
+    id: 19,
+    term: "End-to-end responsibility",
+    description: "End-to-end responsibility means that the team holds takes responsibility for the quality and quantity of services it provides to its customers.",
+    references: "End To End Responsibility - DevOps Principle #3,” Pufferfish Solutions, Feb. 19, 2019. https://www.pufferfish.solutions/post/end-to-end-responsibility-devops-principal-3 (accessed Aug. 01, 2023)",
+  },
+  {
+    id: 20,
+    term: "Customer-centric model",
+    description: "It ensures that the customer is at the center of a business's philosophy, operations, or ideas.",
+    references: "Client-Centric Approach and its Benefits,” Investopedia. https://investopedia.com/terms/c/client-centric.asp#:~:text=Client-centric%2C%20also%20known%20as (accessed Aug. 01, 2023).",
+  },
 ];
 
 /* GET home page. */
