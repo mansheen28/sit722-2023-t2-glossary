@@ -122,6 +122,67 @@ const itemList = [
     description: "It ensures that the customer is at the center of a business's philosophy, operations, or ideas.",
     references: "Client-Centric Approach and its Benefits,” Investopedia. https://investopedia.com/terms/c/client-centric.asp#:~:text=Client-centric%2C%20also%20known%20as (accessed Aug. 01, 2023).",
   },
+  {
+    id: 21,
+    term: "Containers",
+    description: "Containers are compact packages that contain the application code and any dependencies, such as the particular versions of libraries and runtimes needed to operate your software services.",
+    references: "What are containers?,” Google Cloud. https://cloud.google.com/learn/what-are-containers#:~:text=Containers%20are%20packages%20of%20software",
+  },
+  {
+    id: 22,
+    term: "Container Image",
+    description: "An unalterable, static file called a container image contains executable code that enables it to execute a separate process on IT infrastructure. The image consists of the system libraries, system tools, and other platform configurations needed for a software programme to execute on a containerization platform like CoreOS Rkt or Docker. The host machine's OS kernel is shared by the image.",
+    references: "What is container image? | Definition from TechTarget,” IT Operations. https://www.techtarget.com/searchitoperations/definition/container-image",
+  },
+  {
+    id: 23,
+    term: "Docker",
+    description: "A software platform called Docker makes it simple to develop, test, and deploy applications. Software is packaged by Docker into standardised units called containers that contain all of the necessary code, libraries, system tools, and runtime.",
+    references: "AWS, “What is Docker? | AWS,” Amazon Web Services, Inc., 2019. https://aws.amazon.com/docker/",
+  },
+  {
+    id: 24,
+    term: "Virtual Machine (VM)",
+    description: "A virtual machine (VM) is a computer that has had most of its functionalities virtualized, including the ability to run programmes and operating systems.",
+    references: "“What Is a Virtual Machine?,” Google Cloud. https://cloud.google.com/learn/what-is-a-virtual-machine#:~:text=Engine%20free%20tier-",
+  },
+  {
+    id: 25,
+    term: "Docker Compose",
+    description: "A tool called Docker Compose enables you to create and distribute multi-container applications. You may specify the services in a YAML file using Compose, and you can spin everything up or take it down with just one command.",
+    references: "Use Docker Compose,” Docker Documentation, May 12, 2022. https://docs.docker.com/get-started/08_using_compose/#:~:text=Docker%20Compose%20is%20a%20tool",
+  },
+  {
+    id: 26,
+    term: "Azure Storage",
+    description: "Microsoft's cloud storage option for contemporary data storage scenarios is the Azure Storage platform. For a range of data objects, Azure Storage provides highly available, massively scalable, reliable, and secure cloud storage.",
+    references: "tamram, “Introduction to Azure Storage - Cloud storage on Azure,” learn.microsoft.com, 2023. https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction",
+  },
+  {
+    id: 27,
+    term: "Metadata",
+    description: "Data that describes other data, or metadata, provides a structured reference that makes it easier to organise and recognise characteristics of the material it represents.",
+    references: "G. Kranz, “What is metadata and how does it work?,” WhatIs.com, Jul. 2021. https://www.techtarget.com/whatis/definition/metadata",
+  },
+  {
+    id: 28,
+    term: "Cloud Native Applications",
+    description: "A programme created specifically for a cloud computing architecture is known as a cloud-native application. These apps are built to take advantage of the inherent benefits of a cloud computing software delivery architecture. They are hosted and run in the cloud.",
+    references: "What is a Cloud-Native Application and How Do You Build One?,” Cloud Computing. https://www.techtarget.com/searchcloudcomputing/definition/cloud-native-application#:~:text=A%20cloud%2Dnative%20application%20is (accessed Aug. 21, 2023).",
+  },
+  {
+    id: 29,
+    term: "YAML",
+    description: "A data serialisation language known as YAML Ain't Markup Language (YAML) is frequently cited as one of the most well-liked computer languages. Although its object serialisation capabilities make it a potential alternative to languages like JSON, it is frequently used as a format for configuration files.",
+    references: "YAML Tutorial: Everything You Need to Get Started in Minutes,” CloudBees, Mar. 08, 2023. https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started",
+  },
+  {
+    id: 30,
+    term: "Video-streaming Application",
+    description: "An easy way for users to access and stream your content on their TVs and mobile devices is through a video streaming app",
+    references: "How to Create A Live Streaming App - The Ultimate 2023 Guide,” Uscreen, Nov. 22, 2022. https://www.uscreen.tv/blog/create-live-streaming-app/#:~:text=A%20video%20streaming%20app%20is (accessed Aug. 21, 2023).",
+  },
+
 ];
 
 /* GET home page. */
