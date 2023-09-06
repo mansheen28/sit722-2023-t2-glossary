@@ -182,6 +182,66 @@ const itemList = [
     description: "An easy way for users to access and stream your content on their TVs and mobile devices is through a video streaming app",
     references: "How to Create A Live Streaming App - The Ultimate 2023 Guide,” Uscreen, Nov. 22, 2022. https://www.uscreen.tv/blog/create-live-streaming-app/#:~:text=A%20video%20streaming%20app%20is (accessed Aug. 21, 2023).",
   },
+  {
+    id: 31,
+    term: "volume in docker",
+    description: "A Docker volume is an independent file system entirely managed by Docker and exists as a normal file or directory on the host, where data is persisted.",
+    references: "S. Zivuku, “Understanding Docker Volumes,” Earthly Blog, Feb. 08, 2022. https://earthly.dev/blog/docker-volumes/#:~:text=A%20Docker%20volume%20is%20an (accessed Sep. 06, 2023).",
+  },
+  {
+    id: 32,
+    term: "nodemon",
+    description: "Nodemon is a tool to restart your app every time a change is made to your app. It is very useful in a development environment.",
+    references: "Debugging a Node.js app running in Docker using Nodemon and the Docker extension,” Engineering Education (EngEd) Program | Section. https://www.section.io/engineering-education/debug-nodemon-docker/#:~:text=Nodemon%20is%20a%20tool%20to (accessed Sep. 06, 2023).",
+  },
+  {
+    id: 33,
+    term: "A bridge network",
+    description: "In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network.",
+    references: "Bridge network driver,” Docker Documentation, Aug. 22, 2023. https://docs.docker.com/network/drivers/bridge/#:~:text=In%20terms%20of%20Docker%2C%20a",
+  },
+  {
+    id: 34,
+    term: "An overlay network",
+    description: "The overlay network driver creates a distributed network that can span multiple docker hosts.",
+    references: "F. Ferdous, “The Overlay Network Driver | Networking in Docker #7,” TechMormo, Oct. 24, 2022. https://medium.com/techmormo/the-overlay-network-driver-networking-in-docker-7-8d87af5eccd3 (accessed Sep. 06, 2023).",
+  },
+  {
+    id: 35,
+    term: "A macvlan network",
+    description: "macvlan is a local scope network driver which is configured per-host. As a result, there are stricter dependencies between MACVLAN and external networks, which is both a constraint and an advantage that is different from overlay or bridge.",
+    references: "Introduction to MacVLAN,” dockerlabs. https://dockerlabs.collabnix.com/intermediate/macvlan.html#:~:text=macvlan%20is%20a%20local%20scope",
+  },
+  {
+    id: 36,
+    term: "Direct messaging",
+    description: "When sending a message, it is known if the message was received (acknowledged). An example here is a telephone call.",
+    references: "Synchronous vs. asynchronous microservices communication patterns,” TheServerSide.com. https://www.theserverside.com/answer/Synchronous-vs-asynchronous-microservices-communication-patterns",
+  },
+  {
+    id: 37,
+    term: "Indirect messaging",
+    description: "When sending a message, the message is commonly held an intermediary and as such it is not known when the message is actually received (no acknowledgement). An example here is a posted letter.",
+    references: "Synchronous vs. asynchronous microservices communication patterns,” TheServerSide.com. https://www.theserverside.com/answer/Synchronous-vs-asynchronous-microservices-communication-patterns",
+  },
+  {
+    id: 38,
+    term: "Kubernetes",
+    description: "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.",
+    references: "Kubernetes, “Production-Grade Container Orchestration,” Kubernetes.io, 2019. https://kubernetes.io/",
+  },
+  {
+    id: 39,
+    term: "pod",
+    description: "A pod is the smallest execution unit in Kubernetes. A pod encapsulates one or more applications. Pods are ephemeral by nature, if a pod (or the node it executes on) fails, Kubernetes can automatically create a new replica of that pod to continue operations.",
+    references: "What are Kubernetes Pods? | VMware Glossary,” VMware, Jun. 15, 2022. https://www.vmware.com/topics/glossary/content/kubernetes-pods.html#:~:text=A%20pod%20is%20the%20smallest",
+  },
+  {
+    id: 40,
+    term: "Terraform",
+    description: "Terraform creates and manages resources on cloud platforms and other services through their application programming interfaces (APIs). Providers enable Terraform to work with virtually any platform or service with an accessible API.",
+    references: "Hashicorp, “What is Terraform | Terraform | HashiCorp Developer,” What is Terraform | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/intro",
+  },
 
 ];
 
