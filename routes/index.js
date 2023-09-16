@@ -242,6 +242,66 @@ const itemList = [
     description: "Terraform creates and manages resources on cloud platforms and other services through their application programming interfaces (APIs). Providers enable Terraform to work with virtually any platform or service with an accessible API.",
     references: "Hashicorp, “What is Terraform | Terraform | HashiCorp Developer,” What is Terraform | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/intro",
   },
+  {
+    id: 41,
+    term: "Deployment Pipeline",
+    description: "A deployment pipeline is a system of automated processes to expediently move new code additions and updates from version control to production.",
+    references: "What is a Deployment Pipeline?,” PagerDuty. https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment",
+  },
+  {
+    id: 42,
+    term: "Bitbucket Pipeline",
+    description: "An integrated CI/CD service, Bitbucket Pipelines comes with Bitbucket Cloud. You can automatically build, test, and deploy your code based on a configuration file in your repository.",
+    references: "Get started with Bitbucket Pipelines | Bitbucket Cloud,” Atlassian Support. https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/",
+  },
+  {
+    id: 43,
+    term: "Pods",
+    description: "The Pipeline Open Data Standard (PODS) streamlines databases for critical pipeline information analysis using geo-referenced technology in popular GIS platforms.",
+    references: "Pipeline Open Data Standard,” Wikipedia, Aug. 07, 2023. https://en.wikipedia.org/wiki/Pipeline_Open_Data_Standard#:~:text=The%20Pipeline%20Open%20Data%20Standard (accessed Sep. 16, 2023).",
+  },
+  {
+    id: 44,
+    term: "Azurerm",
+    description: "Azure Resource Manager is a service for deployment and management of Azure. This service helps create, update, and delete resources in your Azure account through its management layer.",
+    references: "tfitzmac, “Azure Resource Manager overview - Azure Resource Manager,” learn.microsoft.com. https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview",
+  },
+  {
+    id: 45,
+    term: "Kubernetes deployment",
+    description: "A Kubernetes Deployment explains to Kubernetes how it should create or update containers within pods that house a containerized application. Using deployments one can efficiently control the number of replica pods, safely introduce new code updates, or revert to an earlier deployment version as needed.",
+    references: "VMware, “VMware Cloud, Mobility, Networking & Security Solutions,” VMware, Dec. 19, 2019. https://www.vmware.com/",
+  },
+  {
+    id: 46,
+    term: "Automated Testing",
+    description: "The use of software tools to automate a human-driven manual process of examining and certifying a software product is known as automated testing.",
+    references: "Atlassian, “Automated software testing for continuous delivery,” Atlassian. https://www.atlassian.com/continuous-delivery/software-testing/automated-testing#:~:text=What%20is%20automated%20testing%3F",
+  },
+  {
+    id: 47,
+    term: "Unit Testing",
+    description: "Unit testing is a software development process that examines the smallest testable pieces of a programme, known as units, separately for appropriate operation. During the development process, software engineers and sometimes QA personnel do unit tests.",
+    references: "What is Unit Testing? Definition from WhatIs.com,” SearchSoftwareQuality. https://www.techtarget.com/searchsoftwarequality/definition/unit-testing#:~:text=Unit%20testing%20is%20a%20software",
+  },
+  {
+    id: 48,
+    term: "Integration Testing",
+    description: "Integration testing (also known as integration and testing, abbreviated I&T) is the phase of software testing in which the entire software module or, if it consists of many software modules, they are joined and tested as a group",
+    references: "Integration testing,” Wikipedia, Dec. 06, 2020. https://en.wikipedia.org/wiki/Integration_testing#:~:text=Integration%20testing%20(sometimes%20called%20integratio",
+  },
+  {
+    id: 49,
+    term: "Cypress",
+    description: "Cypress is a web application frontend testing tool. Cypress is available for Windows, Linux, and macOS. The Cypress app is open source software distributed under the MIT Licence, whereas the Cypress Cloud is a web application",
+    references: "Cypress, “JavaScript End to End Testing Framework,” JavaScript End to End Testing Framework | cypress.io. https://www.cypress.io/",
+  },
+  {
+    id: 50,
+    term: "Containerization",
+    description: "Containerization is a software deployment method that combines an application's code with all of the files and libraries required for it to function on any infrastructure. Traditionally, in order to execute any application on your computer, you had to install the version that corresponded to your operating system.",
+    references: "What is Containerization? Containerization Explained - AWS,” Amazon Web Services, Inc. https://aws.amazon.com/what-is/containerization/#:~:text=Containerization%20is%20a%20software%20deployment",
+  },
 
 ];
 
